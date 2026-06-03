@@ -34,7 +34,7 @@ const QUESTIONS = [
   // ── SONHOS
   { id:6,  section:"Sonhos",          icon:"🏆", type:"radio", required:true,
     text:"Você quer seguir carreira nos esports como jogador profissional?",
-    opts:["🔥 Sim — ser proplayer é meu sonho","🤔 Sim, mas ainda é incerto","❓ Ainda não sei","🎮 Não, é só hobby"] },
+    opts:["🔥 Sim — ser proplayer é meu sonho","🤔 Sim, mas ainda é incerto","🎯 Já estou no meio — sou jogador amador/semi-profissional","⭐ Já sou jogador profissional","❓ Ainda não sei","🎮 Não, é só hobby"] },
   { id:7,  section:"Sonhos",          icon:"🏆", type:"check", required:false,
     text:"Qual papel nos esports te interessa? (pode marcar mais de um)",
     opts:["🎮 Jogador profissional","📺 Streamer / criador de conteúdo","🧠 Coach / analista","🎙️ Comentarista / narrador","💼 Staff / gestor de equipe","📣 Marketing / comunicação"] },
@@ -70,6 +70,7 @@ const QUESTIONS = [
     opts:[
       "🎯 Sim — pretendo me dedicar de verdade após terminar o ensino médio",
       "🏫 Não — pretendo equilibrar escola e esports ao mesmo tempo",
+      "✅ Já consigo equilibrar os esports com a escola",
       "🤔 Talvez — ainda não sei como vai ser",
       "🎮 Nunca pensei nisso dessa forma, apenas jogo",
     ] },
