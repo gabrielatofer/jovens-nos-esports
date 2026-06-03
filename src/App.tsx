@@ -305,7 +305,7 @@ export default function App() {
           <div style={{ fontSize:"2.6rem", marginBottom:14 }}>🎮</div>
           <h1 className="start-title">Jovens nos<br/><span>Esports</span></h1>
           <p className="start-desc">
-            Uma pesquisa sobre a rotina, os sonhos e os desafios de jovens jogadores de esports entre <strong style={{color:"#f1f5f9"}}>12 e 18 anos</strong>. São 19 perguntas e leva menos de 5 minutos. Todas as respostas são <strong style={{color:"#f1f5f9"}}>anônimas</strong> e usadas apenas para fins de pesquisa.
+            Uma pesquisa sobre a rotina, os sonhos e os desafios de jovens jogadores entre <strong style={{color:"#f1f5f9"}}>12 e 18 anos</strong>. São 19 perguntas e leva menos de 5 minutos. Todas as respostas são <strong style={{color:"#f1f5f9"}}>anônimas</strong> e usadas apenas para fins de pesquisa.
           </p>
 
           <div className="rank-preview">
