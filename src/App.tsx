@@ -20,7 +20,7 @@ const QUESTIONS = [
     opts:["12 anos","13 anos","14 anos","15 anos","16 anos","17 anos","18 anos"] },
   { id:2,  section:"Perfil",          icon:"🎮", type:"radio", required:true,
     text:"Como você se identifica?",
-    opts:["Menino","Menina","Não-binário","Prefiro não responder"] },
+    opts:["Menino","Menina","Prefiro não responder"] },
   // ── SEUS JOGOS
   { id:3,  section:"Seus Jogos",      icon:"🕹️", type:"radio", required:true,
     text:"Qual jogo você mais treina e quer evoluir?",
