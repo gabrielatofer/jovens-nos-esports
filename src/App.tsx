@@ -171,7 +171,7 @@ export default function App() {
             ? final[q.id].join(" | ") : final[q.id] || "";
           return obj;
         }, { timestamp: new Date().toLocaleString("pt-BR") });
-        await fetch(WEBHOOK_URL, { method:"POST", mode:"no-cors", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload) });
+        await fetch(WEBHOOK_URL, { method:"POST", mode:"no-cors", headers:{"Content-Type":"text/plain"}, body:JSON.stringify(payload) });
       } catch(e) { console.warn(e); }
     }
     setSending(false);
@@ -182,7 +182,7 @@ export default function App() {
     if (!email.trim() || !email.includes("@")) return;
     if (WEBHOOK_URL) {
       try {
-        await fetch(WEBHOOK_URL, { method:"POST", mode:"no-cors", headers:{"Content-Type":"application/json"}, body:JSON.stringify({ tipo:"contato", email:email.trim(), timestamp:new Date().toLocaleString("pt-BR") }) });
+        await fetch(WEBHOOK_URL, { method:"POST", mode:"no-cors", headers:{"Content-Type":"text/plain"}, body:JSON.stringify({ tipo:"contato", email:email.trim(), timestamp:new Date().toLocaleString("pt-BR") }) });
       } catch(e) { console.warn(e); }
     }
     setEmailSent(true);
