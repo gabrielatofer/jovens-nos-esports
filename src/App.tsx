@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { useState } from "react";
 
-const WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwnXsqUWb0XScHn1WKPfyCI2yH5CTKqsBFWbCVC4fDL5lMUGgDyhcfNIvB3DcArEsJa/exec";
+const WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxZbEAxn3AZJily2SXGRlWTSkPuT_WrrCK6HhiKAPpX7r3x9JUjRTvFQD1HZlzaHsXh/exec";
 
 const RANKS = [
   { name:"Bronze",       icon:"🥉", color:"#cd7f32", bg:"#2a1800", at:0  },
